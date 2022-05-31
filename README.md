@@ -37,5 +37,7 @@ git-clone https://github.com/aafidev/JustAanotherPrivacyTool.git
 3. Customize ```package_list.json``` to your hearts content. Packages can be found here: https://community.chocolatey.org/packages
 4. Run the ```install_programs.ps1``` powershell script it will download chocolatey if you **do not** have it on your system already. 
 5. Run the ```run.ps1``` powershell script this scipt debloats and preps your system all in one go.
-6. Enjoy your fast and despooked / optimized system. 
+6. Note: make sure if all this does not work at all to run this command in your powershell ```Set-ExecutionPolicy -ExecutionPolicy RemoteSigned``` to set the execution policy on the device. 
+7. Remember to run the command to ```cd``` to the directory where you put the files in when running it as admin.
+8. Enjoy your fast and despooked / optimized system. 
 
